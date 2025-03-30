@@ -30,7 +30,7 @@ namespace Lab3
             Console.WriteLine("KOLEKCJE\n");
             Console.WriteLine("Zadanie 1\n");
 
-            string[] colors = { "blue", "green", "yellow", "red", "orange" };
+            string[] colors = { "blue", "green", "yellow", "red", "orange","purple" };
             Console.WriteLine($"Mój pierwszy kolor w tablicy to: {colors[0]}\n");
             Console.WriteLine($"Mój ostatni kolor w tablicy to: {colors[colors.Length - 1]}\n");
 
