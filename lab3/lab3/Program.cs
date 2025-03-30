@@ -1,14 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
-//Console.WriteLine("Hello, World!");
-//Console.WriteLine("lab3");
-using System;
+﻿using System;
 namespace lab3
 {
-    class program
+    class Program
     {
         static void main()
         {
-
+            Console.WriteLine("zadanie 1");
         }
     }
     
