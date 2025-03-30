@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Include="C:\Users\ewa\Desktop\lab3_Z405.cs" Link="lab3_Z405.cs" />
+  </ItemGroup>
+
 </Project>
