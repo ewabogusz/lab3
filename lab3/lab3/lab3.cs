@@ -5,7 +5,7 @@ namespace lab3
     {
         static void main()
         {
-            Console.WriteLine("zadanie 1");
+            Console.WriteLine("Zadanie");
         }
     }
     
