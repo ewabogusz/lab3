@@ -1,12 +1,30 @@
 ﻿using System;
-namespace lab3
+
+namespace Lab3
 {
     class Program
     {
-        static void main()
+        //klasa próbna
+        public class Human
         {
-            Console.WriteLine("Zadanie");
+            public string FirstName { get; set; }
+            public string LastName { get; set; }
+
+            public void SayHello()
+            {
+                Console.WriteLine($"{FirstName} {LastName} says hello");
+            }
+        }
+
+        static void Main()
+        {
+            Console.WriteLine("klasa probna");
+            Human human = new Human
+            {
+                FirstName = "Ewa",
+                LastName = "Boguszewska"
+            };
+            human.SayHello();
         }
     }
-    
 }
